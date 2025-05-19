@@ -12,7 +12,6 @@ public class ConfiguracaoSistema {
 	// Construtor da classe inicializando os atributos
 	public ConfiguracaoSistema(TipoProcessador tipo, int larguraBarramento, float frequenciaBarramento,
 			int numeroDispositivos, int ciclosTransferencia) {
-		super();
 		this.tipo = tipo;
 		this.larguraBarramento = larguraBarramento;
 		this.frequenciaBarramento = frequenciaBarramento;
@@ -61,7 +60,7 @@ public class ConfiguracaoSistema {
 		this.ciclosTransferencia = ciclosTransferencia;
 	}
 
-	//Método ToString() para verificar se está tudo correto
+	// Método ToString() para verificar se está tudo correto
 	@Override
 	public String toString() {
 		return "ConfiguracaoSistema [tipoProcessador=" + tipo + ", larguraBarramento=" + larguraBarramento

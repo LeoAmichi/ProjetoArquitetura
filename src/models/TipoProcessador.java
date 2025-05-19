@@ -1,6 +1,5 @@
 package models;
 
 public enum TipoProcessador {
-	ARM,
-	X86
+	ARM, X86
 }
