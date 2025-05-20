@@ -14,7 +14,7 @@ public class ValidadorEntrada {
 	// Validação da Frequência do barramento
 	public static void validarFrequencia(double freq) {
 		if (freq <= 0) {
-			throw new IllegalArgumentException("Frequência deve ser positiva");
+			throw new IllegalArgumentException("Frequência do barramento inválida");
 		}
 	}
 

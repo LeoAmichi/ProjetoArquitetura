@@ -3,6 +3,9 @@ package program;
 import models.*;
 import java.util.Scanner;
 
+/* Desenvolver um programa capaz de calcular taxas de transferência, latência e largura de banda de
+sistemas computacionais, a partir de dados de entrada fornecidos pelo usuário. */
+
 public class Main {
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
@@ -31,7 +34,8 @@ public class Main {
 		ValidadorEntrada.validarCiclos(ciclos);
 
 		// Instância do Objeto ConfiguraçãoSistema e CalculadorSistema
-		ConfiguracaoSistema sistema = new ConfiguracaoSistema(tipoProcessador, largura, frequencia, dispositivos, ciclos);
+		ConfiguracaoSistema sistema = new ConfiguracaoSistema(tipoProcessador, largura, frequencia, dispositivos,
+				ciclos);
 		CalculadorSistema calculador = new CalculadorSistema(sistema);
 
 		// Saída de dados pelo terminal
