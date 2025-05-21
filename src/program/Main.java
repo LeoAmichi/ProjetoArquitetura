@@ -34,8 +34,7 @@ public class Main {
 		ValidadorEntrada.validarCiclos(ciclos);
 
 		// Instância do Objeto ConfiguraçãoSistema e CalculadorSistema
-		ConfiguracaoSistema sistema = new ConfiguracaoSistema(tipoProcessador, largura, frequencia, dispositivos,
-				ciclos);
+		ConfiguracaoSistema sistema = new ConfiguracaoSistema(tipoProcessador, largura, frequencia, dispositivos, ciclos);
 		CalculadorSistema calculador = new CalculadorSistema(sistema);
 
 		// Saída de dados pelo terminal

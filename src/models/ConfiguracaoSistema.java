@@ -1,7 +1,7 @@
 package models;
 
 public class ConfiguracaoSistema {
-
+	
 	// Atributos de entrada do Sistema
 	private TipoProcessador tipo;
 	private int larguraBarramento;

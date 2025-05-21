@@ -3,8 +3,8 @@ package models;
 public class CalculadorSistema {
 	ConfiguracaoSistema sistema;
 
-	public CalculadorSistema(ConfiguracaoSistema system) {
-		this.sistema = system;
+	public CalculadorSistema(ConfiguracaoSistema sistema) {
+		this.sistema = sistema;
 	}
 
 	// Métodos para cálculo
